@@ -4,9 +4,9 @@ import artstation from './../../img/artstation.jpg';
 
 const About= () => {
     return ( 
-        <div className={classes.AboutMe}>
+        <div className={classes.AboutMe} id="about">
             {/* <h1>About</h1> */}
-            <PageHeader title = {'About Me'} />
+            <PageHeader title = {'About Me'}/>
             <div className={classes.Container}>
                 <div className={classes.Text}>
                     <h2>Hello I'm Bryan Brugal a Sofware Developer </h2>

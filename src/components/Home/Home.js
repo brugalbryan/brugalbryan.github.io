@@ -4,7 +4,7 @@ import maxresdefault from './../../img/maxresdefault.jpg'
 
 const Home= () => {
     return ( 
-        <div className={classes.Home}>
+        <div className={classes.Home} id="home">
             {/* <h1>Home</h1> */}
             <div className={classes.Container}>
                 <h1 className={classes.Hello}>Hello, World!</h1>

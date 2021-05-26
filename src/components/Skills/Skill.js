@@ -47,7 +47,7 @@ const totalskills = [FrontendSkills, backendSkills, DataScienceSkill, buildtoolS
 
 const Skills= () => {
     return ( 
-        <div className={classes.Skills}>
+        <div className={classes.Skills} id="skills">
             {/* <h1>Skills</h1> */}
             <PageHeader title = {'What about the Skills?'} />
             <p>
