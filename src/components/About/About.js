@@ -9,12 +9,22 @@ const About= () => {
             <PageHeader title = {'About Me'} />
             <div className={classes.Container}>
                 <div className={classes.Text}>
-                    <h2>Hello I'm Bryan Brugal</h2>
-                    <p>
-                        I am a sofware developer based in New York.
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-                    </p>
+                    <h2>Hello I'm Bryan Brugal a Sofware Developer </h2>
+                    <p>Based in United States, New York. When I'm not coding, I'm usually 
+                            trading stocks, watching a film, ice skating, exercising, playing or watching basketball, reading 
+                            about all things tech and finance.
+                        </p>
+            
+                        <p>Currently I'm a junior student at Lehman College doing a 
+                            bachelor's degree in computer science.</p>
+                                 
+                        <p>I enjoy working with code, and trying new technologies. This year, I'm looking to further 
+                            my knowledge in web development learning Html, Css, Node.js, React, Redux, JQuery, Bootstrap, 
+                            JavaScript, and Django. 
+                        </p>
+                        
+                        <p>I’m interested in new and exciting projects and opportunities so feel free to get in touch!</p>
+                                
                 </div>
                 <div className={classes.Photo}>
                     <img className={classes.Me} src={artstation} alt="me"></img>

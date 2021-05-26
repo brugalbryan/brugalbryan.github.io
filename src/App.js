@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 
 
 import './App.css';
+import './index.css'
 
 const App = () => {
   return (
@@ -11,7 +12,6 @@ const App = () => {
       < NavBar />
       < Home />
       < About />
-
     </div>
   );
 }
