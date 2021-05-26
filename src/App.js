@@ -1,23 +1,12 @@
-import logo from './bryanbrugal.jpg';
+import NavBar from './components/NavBar/NavBar';
+
+
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        My name is Bryan Brugal and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/brugalbryan"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
+      < NavBar />
     </div>
   );
 }
